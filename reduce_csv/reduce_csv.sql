@@ -71,4 +71,4 @@ CREATE PROCEDURE CSV_REDUCE (IN tb VARCHAR, IN dir ANY, IN CRIT VARCHAR := null,
     return files;
     };
 
-SELECT CSV_REDUCE('qa.data.all','cs_demo/data','.csv',',','\n',null,1);
+SELECT CSV_REDUCE('qa.data.all','demo','.csv',',','\n',null,1);
