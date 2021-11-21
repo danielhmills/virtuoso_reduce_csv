@@ -70,3 +70,5 @@ CREATE PROCEDURE CSV_REDUCE (IN tb VARCHAR, IN dir ANY, IN CRIT VARCHAR := null,
     return sprintf('Attached %d files to %s',length(files),tb);
     return files;
     };
+
+SELECT CSV_REDUCE('qa.data.all','demo','.csv',',','\n',null,1);
