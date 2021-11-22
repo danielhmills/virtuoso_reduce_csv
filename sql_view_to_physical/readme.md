@@ -8,7 +8,7 @@ tb (VARCHAR): Physical Table Name
 
 source (VARCHAR): Name SQL view/virtual table to be transformed
 
-pkey_columns (ANY - Vector) (Optional): a vector of column names to create primary key (I.E, **'"id"'**, **'"id","hash"'** )
+pkey_columns (VARCHAR) (Optional): a vector of column names to create primary key (I.E, **'"id"'**, **'"id","hash"'** )
 
 ### Example
 
