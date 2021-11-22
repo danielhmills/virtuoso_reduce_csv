@@ -12,5 +12,5 @@ pkey_columns (VARCHAR) (Optional): a vector of column names to create primary ke
 
 ### Example
 
-SELECT SQL_VIEW_TO_PHYSICAL(‘qa.data.alldata’,‘qa.data.all’,’“hash”’);
+SELECT SQL_VIEW_TO_PHYSICAL(‘qa.data.alldata’, ‘qa.data.all’, ’“hash”’);
 > Created physical table “qa”.“data”.“alldata” from “qa”.“data”.“all”. Primary Key: “hash”
