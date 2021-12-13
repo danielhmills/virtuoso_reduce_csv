@@ -2,6 +2,9 @@
 
 An extension of Virtuoso's [attach_from_csv()](http://docs.openlinksw.com/virtuoso/fn_attach_from_csv/) function, that automatically reduces multiple CSVs from a directory to a virtual SQL table.
 
+###Installation
+Run the reduce_csv.sql SQL script from your virtuoso instance.
+
 #### Parameters
 tb (VARCHAR): Virtual table name
 
